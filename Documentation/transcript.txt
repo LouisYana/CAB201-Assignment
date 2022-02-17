@@ -1,0 +1,422 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200605222330
+Username: DESKTOP-VLCBK1E\louis
+RunAs User: DESKTOP-VLCBK1E\louis
+Configuration Name: 
+Machine: DESKTOP-VLCBK1E (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 10176
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is transcript.txt
+PS C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartB_2020_S1_n10221221 - Copy\MRRC\MRRC\bin\Debug> ./MRRC
+### Mates-Rates Rent-a-Car Operation Menu ###
+
+You may enter q at any time to exit. Enter h to return to the previous menu
+
+
+Please enter a letter from the options below and press enter:
+
+a) Customer Management
+b) Fleet Management
+c) Rental Management
+
+a
+
+Please enter a number from the options below:
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+h) Previous Menu
+
+a
+
+ID  Title First Name     Last Name      Gender  DOB
+0   Ms    Elizabeth      Franklin       FEMALE  26/09/1995
+1   Miss  Finley         Sartini        MALE    25/04/1965
+2   Mr    Miron          Descoteaux     MALE    4/06/1983
+3   Mx    Tekla          Muhammad       OTHER   17/12/1989
+4   Mrs   Valentina      Waters         FEMALE  27/04/1979
+5   Mr    Azarel         Kristiansen    MALE    1/06/1976
+6   Lord  Herman         Dirksen        MALE    22/05/1959
+7   Mrs   Emel           Gabor          FEMALE  31/03/1976
+8   Lady  Kalpana        Rothenberg     FEMALE  6/02/1966
+9   Dr    Amos           Allaway        MALE    10/09/1957
+10  Mr    Louis          Yanagisawa     MALE    17/06/2000
+
+Please enter a number from the options below:
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+h) Previous Menu
+
+b
+Please fill the following fields (fields marked with * are required)
+
+ID*: 11
+Title*: Jack
+FirstName*: Jack
+LastName*: Fitzgerald
+Genders Male(0) Female(1) Other(2)
+Please enter number from options above: 0
+DOB (dd/MM/yyyy): 07/04/2002
+Successfully added new customer Jack
+
+Please enter a number from the options below:
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+h) Previous Menu
+
+c
+Please enter ID of customer you want to modify
+11
+Please fill the following fields (fields marked with * are required)
+
+ID* (can be the same as the old ID): 11
+Title*: Mr
+FirstName*: Jack
+LastName*: Fitzgerald
+Genders Male(0) Female(1) Other(2)
+Please enter number or word from options above: 0
+DOB (dd/MM/yyyy): 07/04/2002
+Successfully updated customer 11 Jack
+
+Please enter a number from the options below:
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+h) Previous Menu
+
+d
+Please enter ID of customer you want to remove:
+11
+Successfully removed customer 11
+
+Please enter a number from the options below:
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+h) Previous Menu
+
+h
+Please enter a letter from the options below and press enter:
+
+a) Customer Management
+b) Fleet Management
+c) Rental Management
+
+b
+
+Please enter a letter from the options below and press enter:
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+h) Previous Menu
+a
+
+Registration  Grade          Make        Model        Year  NumSeats Transmission Fuel   GPS    SunRoof DailyRate Colour
+
+851VOJ        ECONOMY        Pontiac     Fiero 2M4    1985  2        MANUAL       PETROL False  False   37.1      Black
+169FBE        ECONOMY        Pontiac     Fiero 2M4    1985  2        MANUAL       PETROL False  False   48.8      Black
+602VVZ        ECONOMY        Pontiac     Fiero 2M4    1987  2        MANUAL       PETROL False  False   37.9      Red
+993QAN        COMMERCIAL     Mitsubishi  3000 GT VR-4 1991  2        MANUAL       PETROL False  False   37.8      Red
+509XRK        COMMERCIAL     Dodge       Dakota       2002  4        MANUAL       DIESEL True   False   45.5      Blue
+471XBI        LUXURY         Chevrolet   Tahoe        1996  8        AUTOMATIC    PETROL True   True    38        Black
+682GWJ        COMMERCIAL     Audi        A4           1997  5        MANUAL       PETROL False  False   46.1      Blue
+677UIA        ECONOMY        Audi        S4           2004  5        MANUAL       PETROL False  False   43.3      Blue
+519YUY        FAMILY         Dodge       Durango      2006  7        AUTOMATIC    DIESEL True   True    46.8      Blue
+483LUM        FAMILY         bruh        bruh         2009  5        AUTOMATIC    PETROL True   True    30        red
+093ZIB        ECONOMY        Hyundai     Sport Accent 2019  5        MANUAL       DIESEL True   True    45        red
+123ABC        LUXURY         Test2       TEst2        2002  5        AUTOMATIC    PETROL True   True    25        silver
+
+
+Please enter a letter from the options below and press enter:
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+h) Previous Menu
+b
+Please fill the following fields (fields marked with * are required)
+
+Registration: 000AAA
+Grade Luxury(3) Commercial(2) Family(1) Economy(0)
+Please enter number or word from options above: 0
+Make: test
+Model: test
+Year: 2000
+NumSeats: 5
+Transmission Automatic(0) Manual(1)
+Please enter number or word from options above: 0
+Fuel type Petrol(0) Diesel(1)
+Please enter number or word from options above: 0
+Invalid input
+GPS (true/false) : false
+Sun roof (true/false) : false
+Daily Rate: 30
+Colour: red
+
+Please enter a letter from the options below and press enter:
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+h) Previous Menu
+c
+
+Please enter the registration of the vehicle you want to modify:
+000AAA
+
+Please fill the following fields (fields marked with * are required)
+Grade Luxury(3) Commercial(2) Family(1) Economy(0)
+Please enter number or word from options above: 1
+Make: abc
+Model: abc
+Year: 2000
+NumSeats: 5
+Transmission Automatic(0) Manual(1)
+Please enter number or word from options above: 1
+Fuel type Petrol(0) Diesel(1)
+Please enter number or word from options above: 1
+GPS (true/false) : false
+Sun roof (true/false) : false
+Daily Rate: 35
+Colour: red
+deleted 000AAA
+
+Please enter a letter from the options below and press enter:
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+h) Previous Menu
+d
+Please enter registration of vehicle you want to remove: 000AAA
+deleted 000AAA
+Successfully removed
+
+Please enter a letter from the options below and press enter:
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+h) Previous Menu
+h
+Please enter a letter from the options below and press enter:
+
+a) Customer Management
+b) Fleet Management
+c) Rental Management
+
+c
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+a
+
+Registration   Customer ID    Daily rate ($)
+602VVZ         0              37.9
+677UIA         6              43.3
+471XBI         2              38
+851VOJ         3              37.1
+519YUY         1              46.8
+993QAN         1              37.8
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+b
+
+Please enter details of vehicles you want
+red
+Registration  Grade          Make        Model        Year  NumSeats Transmission Fuel   GPS    SunRoof DailyRate Colour
+
+483LUM        FAMILY         bruh        bruh         2009  5        AUTOMATIC    PETROL True   True    30        red
+093ZIB        ECONOMY        Hyundai     Sport Accent 2019  5        MANUAL       DIESEL True   True    45        red
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+b
+
+Please enter details of vehicles you want
+red or blue
+Registration  Grade          Make        Model        Year  NumSeats Transmission Fuel   GPS    SunRoof DailyRate Colour
+
+483LUM        FAMILY         bruh        bruh         2009  5        AUTOMATIC    PETROL True   True    30        red
+093ZIB        ECONOMY        Hyundai     Sport Accent 2019  5        MANUAL       DIESEL True   True    45        red
+509XRK        COMMERCIAL     Dodge       Dakota       2002  4        MANUAL       DIESEL True   False   45.5      Blue
+682GWJ        COMMERCIAL     Audi        A4           1997  5        MANUAL       PETROL False  False   46.1      Blue
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+red and economy
+Please enter a valid input
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+b
+
+Please enter details of vehicles you want
+red and economy
+Registration  Grade          Make        Model        Year  NumSeats Transmission Fuel   GPS    SunRoof DailyRate Colour
+
+093ZIB        ECONOMY        Hyundai     Sport Accent 2019  5        MANUAL       DIESEL True   True    45        red
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+b
+
+Please enter details of vehicles you want
+blue or red and family
+Registration  Grade          Make        Model        Year  NumSeats Transmission Fuel   GPS    SunRoof DailyRate Colour
+
+509XRK        COMMERCIAL     Dodge       Dakota       2002  4        MANUAL       DIESEL True   False   45.5      Blue
+682GWJ        COMMERCIAL     Audi        A4           1997  5        MANUAL       PETROL False  False   46.1      Blue
+483LUM        FAMILY         bruh        bruh         2009  5        AUTOMATIC    PETROL True   True    30        red
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+b
+
+Please enter details of vehicles you want
+(red or blue) and commercial
+Registration  Grade          Make        Model        Year  NumSeats Transmission Fuel   GPS    SunRoof DailyRate Colour
+
+509XRK        COMMERCIAL     Dodge       Dakota       2002  4        MANUAL       DIESEL True   False   45.5      Blue
+682GWJ        COMMERCIAL     Audi        A4           1997  5        MANUAL       PETROL False  False   46.1      Blue
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+b
+
+Please enter details of vehicles you want
+(red or (blue and commercial)) or black
+Registration  Grade          Make        Model        Year  NumSeats Transmission Fuel   GPS    SunRoof DailyRate Colour
+
+509XRK        COMMERCIAL     Dodge       Dakota       2002  4        MANUAL       DIESEL True   False   45.5      Blue
+682GWJ        COMMERCIAL     Audi        A4           1997  5        MANUAL       PETROL False  False   46.1      Blue
+483LUM        FAMILY         bruh        bruh         2009  5        AUTOMATIC    PETROL True   True    30        red
+093ZIB        ECONOMY        Hyundai     Sport Accent 2019  5        MANUAL       DIESEL True   True    45        red
+169FBE        ECONOMY        Pontiac     Fiero 2M4    1985  2        MANUAL       PETROL False  False   48.8      Black
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+c
+Please enter registration of vehicle you want to rent: 483LUM
+Please enter customer ID of customer that is going to rent: 10
+Please enter number of days the vehicle is going to be rented for: 10
+
+Customer 10 successfully rented vehicle 483LUM
+Cost for 10 days is $300
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+d
+Please enter registration of vehicle you want to return: 483LUM
+Successfully returned vehicle 483LUM
+
+Please enter a letter from the options below and press enter:
+
+a) Display Rentals
+b) Search Vehicle
+c) Rent Vehicle
+d) Return Vehicle
+h) Previous Menu
+
+h
+Please enter a letter from the options below and press enter:
+
+a) Customer Management
+b) Fleet Management
+c) Rental Management
+
+q
+PS C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartB_2020_S1_n10221221 - Copy\MRRC\MRRC\bin\Debug> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200605222755
+**********************

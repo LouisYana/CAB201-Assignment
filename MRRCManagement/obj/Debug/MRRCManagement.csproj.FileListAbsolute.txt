@@ -1,0 +1,20 @@
+C:\Users\louis\Documents\CAB201 assignment\MRRC\MRRCManagement\bin\Debug\MRRCManagement.dll
+C:\Users\louis\Documents\CAB201 assignment\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+C:\Users\louis\Documents\CAB201 assignment\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+C:\Users\louis\Documents\CAB201 assignment\MRRC\MRRCManagement\obj\Debug\MRRCManagement.dll
+C:\Users\louis\Documents\CAB201 assignment\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
+C:\Users\louis\Documents\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\bin\Debug\MRRCManagement.dll
+C:\Users\louis\Documents\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+C:\Users\louis\Documents\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+C:\Users\louis\Documents\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\obj\Debug\MRRCManagement.dll
+C:\Users\louis\Documents\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\bin\Debug\MRRCManagement.dll
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\obj\Debug\MRRCManagement.dll
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartA_2020_S1_n10221221\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartB_2020_S1_n10221221 - Copy\MRRC\MRRCManagement\bin\Debug\MRRCManagement.dll
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartB_2020_S1_n10221221 - Copy\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartB_2020_S1_n10221221 - Copy\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartB_2020_S1_n10221221 - Copy\MRRC\MRRCManagement\obj\Debug\MRRCManagement.dll
+C:\Users\louis\Documents\Louis\UNI\Semester 1 2020\CAB201\CAB201_Assignment_PartB_2020_S1_n10221221 - Copy\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
